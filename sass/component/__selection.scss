@@ -1,0 +1,28 @@
+@import"component/variable";
+@import"component/_group-mixin";
+.selection{   
+    background-image: url(../image/home/selection.png);
+    // width: 100%;
+    height: 65vh;
+    margin-top: 25px;
+    background-size: cover;
+    .selec-img{
+        @include alined-item;
+        gap: 30px;
+        background:$baground;
+        color: $nav-color;
+        // width: 100%;
+        height: 65vh;
+        h2{
+            margin-top: 65px;
+            margin-left: 50px; 
+            line-height: 2.7em;  
+        }
+        p{
+            margin-top: 90px;
+            text-align: justify;
+            margin-right: 40px;
+            // margin-top: -8px;
+        }
+    }
+}

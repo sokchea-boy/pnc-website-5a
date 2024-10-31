@@ -1,0 +1,21 @@
+@import"component_variable";
+.color-background {
+    background-image: url(../image/home/background.png);
+    width: 100%;
+    height: 55vh;
+    margin-top: 80px;
+    text-align: center;
+    color:$nav-color;
+
+    .background {
+        height: 55vh;
+        background: rgba(3, 37, 61, 0.7);
+        margin-top: 20px;
+        h2{
+            line-height: 5em;
+        }
+        p {
+            margin-top: -20px 
+        }
+    }
+}

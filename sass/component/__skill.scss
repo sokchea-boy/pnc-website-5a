@@ -1,0 +1,67 @@
+@import"component/variable";
+.skill{
+    // width: 33%;
+    color: $nav-color;
+    margin-top: 30px;
+    display: flex;
+    .web{
+        background-image: url(../image/home/web.png);
+        width: 33.3%;
+        height: 60vh;
+        background-size: cover;
+        .tecnical{
+            background:$baground;
+            height: 60vh; 
+            margin-top: -20px;
+            h4{
+                margin-top: 20px;
+                margin-left: 20px;
+                line-height: 3.9em;
+            }
+            ul{
+                margin-top: -23px;
+                li{
+                    margin-top: 8px;
+                }
+            }
+        }
+
+    }
+    .general{
+        background-color: $color;
+        width: 33.3%;
+        height: 60vh;
+        h4{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        p{
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: justify;
+        }
+    }
+    .social{
+        background-image: url(../image/home/social.png);
+        width: 33.3%;
+        height: 60vh;
+        background-size: cover;
+        .social-img{
+            background:$baground;
+            width: 100%;
+            height: 60vh;
+            margin-top: -21px;
+            object-fit: cover;
+            text-align: justify;
+            h4{
+                margin-left: 20px;
+                line-height: 3.9em;
+            }
+            p{
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: -24px;
+            }
+        }
+    }
+}

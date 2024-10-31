@@ -1,0 +1,52 @@
+@import"component/variable";
+@import"component/_group-mixin";
+.footer{
+    @include alined-item;
+    background-color:$background-color;
+    margin-top: 20px;
+    height: 70vh;
+    color:$nav-color;
+    gap: 40px;
+    .logo-footer{
+        margin-left: 30px;
+        margin-right: 5px;
+        text-align: justify;
+        .img-footer{
+            height: 13vh;
+            margin-top: 45px;
+        }
+        p{
+            margin-right: 70px;
+        }
+    }
+    .about-us{
+        margin-right: 90px;
+        ul{
+            margin-top: 65px;
+            li{
+                list-style: none;
+                margin-top: 20px;
+            }
+        }
+    }
+    .quick-link{
+        margin-top: 42px;
+        margin-right: 60px;
+        // margin-right: 20px;
+        ul{
+
+            li{
+                list-style: none;
+                display: flex;
+                margin-top: 20px;
+                a{
+                    color:$nav-color;
+                }
+            }
+        }
+    }
+    .contact-us{
+        margin-top: 42px;
+        margin-right: 20px;
+    }
+}

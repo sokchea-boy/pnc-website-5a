@@ -1,0 +1,33 @@
+@import"component/variable";
+@import"component/_group-mixin";
+nav {
+    @include alined-item;
+    align-items: center;
+    height: 15vh;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:$nav-color;
+
+    ul {
+        display: flex;
+        gap: 30px;
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: $background-color;
+            padding: 10px;
+            // text-decoration: underline;
+        }
+    }
+    .logo {
+        height: 13vh;
+        margin-left: 20px;
+    }
+}
