@@ -1,5 +1,5 @@
-@import"component/variable";
-@import"component/_group-mixin";
+@import"_variable";
+@import"_group-mixin";
 nav {
     @include alined-item;
     align-items: center;
@@ -18,6 +18,7 @@ nav {
 
         a {
             text-decoration: none;
+            margin-right: 30px;
         }
 
         a:hover {
