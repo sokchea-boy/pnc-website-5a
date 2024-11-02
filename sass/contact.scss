@@ -1,0 +1,33 @@
+@import"component/__variable";
+@import"component/__body";
+@import"component/__navbar";
+@import"component/__feddback";
+@import"component/__container";
+@import"component/__form-login";
+@import"component/__form";
+@import"component/__gender";
+@import"component/__logo-1";
+@import"component/__color";
+@import"component/__color-1";
+@import"component/__form-2";
+@import"component/__submit";
+@import"component/__text";
+@import"component/__map";
+@import"component/__footer";
+#logo-login{
+    width: 70%;
+    height: 70%;
+    margin-top: 70px;
+}
+
+.input{
+    height: 5vh;
+    margin-top: 10px;
+}
+#message{
+    margin-top: 10px;
+}
+
+
+
+

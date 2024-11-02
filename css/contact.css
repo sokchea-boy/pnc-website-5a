@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  position: fixed;
+  z-index: 38;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 0 2px 6px 8px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  height: 13vh;
+  width: 15%;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin-right: 40px;
+}
+nav ul li a:hover {
+  padding: 10px 10px;
+  background: orange;
+  text-decoration: none;
+}
+nav ul a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.Feedback {
+  color: orange;
+  margin: 6px;
+  font-size: 40px;
+}
+
+.container img {
+  width: 100%;
+  height: 67vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 20px;
+}
+
+.form-login {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: space-around;
+  width: 97%;
+  margin: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+}
+.form input {
+  width: 50%;
+  height: 5vh;
+  margin: 5px;
+}
+
+.gender {
+  margin-top: 10px;
+}
+
+.logo-1 {
+  display: flex;
+  margin-left: -60px;
+}
+
+.color {
+  background: rgba(113, 219, 248, 0.885);
+  -webkit-clip-path: polygon(36% 0, 23% 52%, 32% 100%, 0 100%, 0% 50%, 0 0);
+          clip-path: polygon(36% 0, 23% 52%, 32% 100%, 0 100%, 0% 50%, 0 0);
+  padding: 90px;
+  width: 80%;
+  margin-left: 23px;
+}
+
+.color1 {
+  background: orange;
+  -webkit-clip-path: polygon(31% 0, 14% 51%, 28% 100%, 14% 100%, 0 51%, 17% 0);
+          clip-path: polygon(31% 0, 14% 51%, 28% 100%, 14% 100%, 0 51%, 17% 0);
+  padding: 60px;
+  width: 20%;
+  margin-left: -150px;
+}
+
+.form-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.submit {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  background: orange;
+  border-radius: 10px;
+  width: 20%;
+}
+
+.text h1 {
+  color: orange;
+  padding: 10px;
+}
+.text h4 {
+  padding: 10px;
+}
+.text p {
+  padding: 10px;
+}
+
+h2 {
+  color: orange;
+  margin-left: 30px;
+}
+
+.map h2 {
+  margin-bottom: 30px;
+}
+.map iframe {
+  margin-top: 70px;
+  background: white;
+  width: 100%;
+  height: 80vh;
+  border-radius: 10px;
+  border: 3px solid white;
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.map span {
+  background: #50076b;
+  padding: 15px;
+  border-radius: 40px 0 40px 0;
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+footer {
+  background-color: orange;
+  height: 80vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: white;
+  gap: 40px;
+}
+.footer .logo-footer {
+  margin-left: 30px;
+  margin-right: 5px;
+  text-align: justify;
+}
+.footer .logo-footer .img-footer {
+  height: 23vh;
+  margin-top: 25px;
+  margin-left: 5px;
+}
+.footer .logo-footer .caption {
+  margin-top: -10px;
+}
+.footer .about-us {
+  margin-right: 90px;
+}
+.footer .about-us ul {
+  margin-top: 65px;
+}
+.footer .about-us ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+.footer .quick-link {
+  margin-top: 42px;
+  margin-right: 60px;
+}
+.footer .quick-link ul li {
+  list-style: none;
+  display: flex;
+  margin-top: 20px;
+}
+.footer .quick-link ul li a {
+  color: white;
+}
+.footer .contact-us {
+  margin-top: 42px;
+}
+.footer .contact-us .fa-solid {
+  width: 30px;
+  font-size: 20px;
+}
+
+hr {
+  color: white;
+  width: 90%;
+}
+
+.new-footer {
+  color: white;
+  margin-top: -5px;
+}
+
+.media {
+  text-align: center;
+  margin-top: 20px;
+}
+.media .fa-brands {
+  font-size: 30px;
+  margin: 10px;
+}
+.media .fa-envelope {
+  font-size: 30px;
+}
+
+#logo-login {
+  width: 70%;
+  height: 70%;
+  margin-top: 70px;
+}
+
+.input {
+  height: 5vh;
+  margin-top: 10px;
+}
+
+#message {
+  margin-top: 10px;
+}/*# sourceMappingURL=contact.css.map */
