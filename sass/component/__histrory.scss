@@ -1,0 +1,92 @@
+.history{
+    margin: 10px;
+    margin-left: 70px;
+    h2{
+        color: orange;
+        margin: 10px;
+    }
+    p{
+        margin-top: 10px;
+        width: 80%;
+    }
+}
+.right-img{
+    width: 50%;
+    height: 40%;
+}
+.conten-main{
+    background: #6e7788;
+    height: auto; 
+    margin-top: 30px;
+  
+  }
+  .content-left,
+  .content-right{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+  }
+  .list1,
+  .list2
+  {
+      background: lightblue;
+      display: flex;
+      padding: 6px;
+      margin-top: 10px;
+      border-radius: 10px 10px 0px 0px;
+      align-items: center;
+  
+  }
+  .list-mid{
+    color: black;
+  }
+  .list_1,
+   .list_2{
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+  .number{
+    background: lightseagreen;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .year-pnc{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+  }
+  .image-right{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px;
+    
+  }
+  
+  
+  .other-local{
+      margin-top: 50px;
+      gap: 30px;
+      display: flex;
+  }
+  .main-partner{
+      margin-top: 50px;
+      gap: 30px;
+      display: flex;
+  }
+  
+  
+  .logos{
+      width: 35%;
+      height: 30vh;
+  }

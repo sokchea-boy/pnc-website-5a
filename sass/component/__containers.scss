@@ -1,0 +1,116 @@
+@import"../component/_variable";
+@import"../mixin/responsive_about.scss";
+
+.container{
+    background:#fff;
+    position:absolute;
+    top: 100px;
+}
+.contner-mid{
+    height: 170px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    padding: 10px;
+  }
+.container1{
+    background-color:#d9d9d9;
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    gap:90px;
+    .page-right{
+        margin-top: 30px;
+    }
+    h1{
+        margin: 10px;
+        font-size:2.8em;
+         strong{
+            color: $bg-orange;
+        }
+    }
+    p{
+        margin: 10px;
+        margin-left: 20px;
+    }
+    hr{
+        padding: 1px;
+        width: 20%;
+        background-color: black;
+        margin: 10px;
+    }
+    .button{
+        display: flex;
+        gap: 10px;
+        .btn1{
+            background:$bg-orange;
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-top: 10px;
+            width: 20%;
+            height: 7vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn1:hover{
+            background-color:$bg-orange;
+            color: white;
+        }
+        
+        .btn2{
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-top: 10px;
+            width: 30%;
+            height: 7vh;
+            background-color:#29A9B2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .fa-solid{
+                margin-left: 10px;
+            }
+        }
+        .btn2:hover{
+            background-color: #29A9B2;
+            color: white;
+        }
+    }
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    margin-top: 90px;
+    gap: 50px;
+    .contaner-right{
+        background: #6e7788;
+        height: 47vh;
+        width: 70%;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    h2{
+        font-size: 1.6em;
+        color: orange;
+        margin: 10px;
+    }
+    strong{
+        color: orange;
+    }
+    .coontainer-left{
+        margin-left: 40px;
+    }
+    .paragrap{
+        margin-top: 10px;
+        padding: 10px;
+        color: #ffff;
+    }
+    h3{
+        color: orange;
+        margin-top: 10px;
+    }
+
+}
