@@ -301,7 +301,7 @@ nav{
 }
 
 footer{
-  background-color:$bg-orange;
+  background-color:orange;
   height: 60vh;
   width: 100%;
   .footer{
@@ -367,7 +367,7 @@ hr{
   margin-top: -2px;
 }
 .media{
- text-align: center;
+  margin-left: -30px;
  margin-top: 20px;
  .fa-brands{
       font-size: 40px;
@@ -375,6 +375,8 @@ hr{
  }
   .fa-envelope{
       font-size: 30px;
+      // margin-right: -50px;
+
   }
 }
 }
@@ -481,4 +483,201 @@ border-radius: 10px 0px 10px 0;
 .btn-read:hover{
 background: orange;
 }
+}
+
+@media(max-width:390px){
+  nav{
+    position: fixed;
+    z-index: 38;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-bottom:0 2px 6px 8px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    .logo{
+        height: 10vh;
+        width: 40%;
+    }
+   
+    ul{
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        margin-right: 40px;
+        li a:hover{
+            padding: 10px 10px;
+            background: $bg-orange;  
+            text-decoration: underline;
+            text-decoration: none;
+        }
+       
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            display: none;
+        }
+        
+    }
+}
+.dropstart {
+    position: relative;
+    display: inline-block;
+  }
+  .fa-sape {
+      margin-left: 20px;
+  }  
+  .dropdown-menus {
+    position: absolute;
+    left: -100px; 
+    top: 20px;
+    background-color:  orange;
+    min-width: 160px;
+    border-radius: 5px;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .dropstart:hover .dropdown-menus {
+    display: block;
+  }
+  
+  .dropdown-items{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    background-color: transparent;
+  }
+  
+  .dropdown-items:hover {
+    background-color:#a8b1b9;
+    color: rgb(255, 255, 255);
+  }
+  
+  .dropdown-dividers {
+    height: 1px;
+    background-color: #a8b1b9;
+    margin: 5px 0;
+  }
+  //  #container.........................................
+  .container{
+    background:#fff;
+    position:absolute;
+    top: 100px;
+}
+.contner-mid{
+    height: 170px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    padding: 10px;
+  }
+.container1{
+    background-color:#d9d9d9;
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    gap:90px;
+    .page-right{
+        margin-top: 30px;
+    }
+    h1{
+        margin: 10px;
+        font-size:2.8em;
+         strong{
+            color: $bg-orange;
+        }
+    }
+    p{
+        margin: 10px;
+        margin-left: 20px;
+    }
+    hr{
+        padding: 1px;
+        width: 20%;
+        background-color: black;
+        margin: 10px;
+    }
+    .button{
+        display: flex;
+        gap: 10px;
+        .btn1{
+            background:$bg-orange;
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-top: 10px;
+            width: 20%;
+            height: 7vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn1:hover{
+            background-color:$bg-orange;
+            color: white;
+        }
+        
+        .btn2{
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-top: 10px;
+            width: 30%;
+            height: 7vh;
+            background-color:#29A9B2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .fa-solid{
+                margin-left: 10px;
+            }
+        }
+        .btn2:hover{
+            background-color: #29A9B2;
+            color: white;
+        }
+    }
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    margin-top: 90px;
+    gap: 50px;
+    .contaner-right{
+        background: #6e7788;
+        height: 47vh;
+        width: 70%;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    h2{
+        font-size: 1.6em;
+        color: orange;
+        margin: 10px;
+    }
+    strong{
+        color: orange;
+    }
+    .coontainer-left{
+        margin-left: 40px;
+    }
+    .paragrap{
+        margin-top: 10px;
+        padding: 10px;
+        color: #ffff;
+    }
+    h3{
+        color: orange;
+        margin-top: 10px;
+    }
+
+}
+// #history.....................................................
+
 }
