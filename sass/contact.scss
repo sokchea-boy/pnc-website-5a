@@ -1,0 +1,34 @@
+@import"component/_contactvariable";
+@import"component/_contactbady";
+@import"component/_contactnavbar";
+@import"component/_contactfeddback";
+@import"component/_contactcontainer";
+@import"component/_contactform-login";
+@import"component/_contactform";
+@import"component/_contactgender";
+@import"component/_contactlogo-1";
+@import"component/_contactcolor";
+@import"component/_contactcolor-1";
+@import"component/_contactform-2";
+@import"component/_contactsubmit";
+@import"component/_contacttext";
+@import"component/_contactmap";
+@import"component/_contactfooter";
+@import "mixin/_reponsive_contact";
+
+
+.input{
+    height: 5vh;
+    margin-top: 10px;
+}
+#message{
+    margin-top: 10px;
+}#logo-login{
+    width: 70%;
+    height: 70%;
+    margin-top: 70px;
+}
+
+
+
+
