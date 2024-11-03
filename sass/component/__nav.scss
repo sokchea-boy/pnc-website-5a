@@ -1,5 +1,5 @@
 @import"./_variable";
-@import"../mixin/responsive_about.scss";
+@import"../mixin/responsive_about";
 nav{
     position: fixed;
     z-index: 38;
@@ -40,6 +40,7 @@ nav{
 .dropstart {
     position: relative;
     display: inline-block;
+    display: none;
   }
   .fa-sape {
       margin-left: 20px;
@@ -49,7 +50,7 @@ nav{
     position: absolute;
     left: -100px; 
     top: 20px;
-    background-color:  #6a737a;
+    background-color:  #495057;
     min-width: 160px;
     border-radius: 5px;
     z-index: 1;
