@@ -1,0 +1,25 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@import"component/variable-home";
+@import"component/_nav-home";
+@import"component/_color-background-home";
+@import"component/_about-home";
+@import"component/_selection-home";
+@import"component/_trianing-home";
+@import"component/_skill-home";
+@import"component/_job-home";
+@import"component/_footer-home";
+@import"component/_hr-home";
+@import"component/_media-home";
+@import"component/_group-mixin-home";
+@import"mixin/_responsive";
+strong {
+    color: $background-color;
+}
+
+

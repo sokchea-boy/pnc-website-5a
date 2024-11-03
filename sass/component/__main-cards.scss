@@ -1,0 +1,99 @@
+.club{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.club p {
+  margin: 20px;
+  width: 50%;
+}
+.main-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 450px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  gap: -2px;
+}
+.card {
+  width: 23%;
+  height: 400px;
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.imgc {
+  width: 93%;
+  height: 28vh;
+  margin: 10px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  text-align: center;
+  // background-size: cover;
+  // object-fit: cover;
+}
+.card-tops {
+  display: flex;
+  position: relative;
+}
+.card-tops span {
+  background: rgba(255, 166, 0, 0.834);
+  color: #fff;
+  border-radius: 0px 20px 20px 0px;
+  position: absolute;
+  margin-left: 0px;
+  top: 80px;
+  padding: 10px;
+  width: auto;
+}
+strong {
+  color: rgb(255, 166, 0);
+}
+h3 {
+  margin-top: 50px;
+  color: rgb(255, 166, 0);
+  font-size: 30px;
+  text-align: center;
+}
+.card-mid {
+  height: 70px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  padding: 10px;
+}
+.card-bottom {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.rating-stars {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+  text-align: left;
+  color: gray;
+}
+.icon {
+  display: flex;
+}
+.btn-read {
+  background-color: rgb(6, 176, 182);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px 0px 10px 0;
+}
+.btn-read:hover{
+  background: orange;
+}

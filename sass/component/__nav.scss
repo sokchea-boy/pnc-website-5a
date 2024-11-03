@@ -1,0 +1,82 @@
+@import"./_variable";
+@import"../mixin/responsive_about";
+nav{
+    position: fixed;
+    z-index: 38;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-bottom:0 2px 6px 8px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    .logo{
+        height: 13vh;
+        width: 15%;
+    }
+   
+    ul{
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        margin-right: 40px;
+        li a:hover{
+            padding: 10px 10px;
+            background: $bg-orange;  
+            text-decoration: underline;
+            text-decoration: none;
+        }
+       
+        a{
+            text-decoration: none;
+            font-size: 20px;
+        }
+        
+    }
+}
+.dropstart {
+    position: relative;
+    display: inline-block;
+    display: none;
+  }
+  .fa-sape {
+      margin-left: 20px;
+  }  
+  .dropdown-menus {
+    display: none; 
+    position: absolute;
+    left: -100px; 
+    top: 20px;
+    background-color:  #495057;
+    min-width: 160px;
+    border-radius: 5px;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .dropstart:hover .dropdown-menus {
+    display: block;
+  }
+  
+  .dropdown-items{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    background-color: transparent;
+  }
+  
+  .dropdown-items:hover {
+    background-color: #495057;
+    color: rgb(255, 255, 255);
+  }
+  
+  .dropdown-dividers {
+    height: 1px;
+    background-color: #495057;
+    margin: 5px 0;
+  }
+   

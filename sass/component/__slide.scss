@@ -1,0 +1,44 @@
+.slide-sor{
+  background: #6e7788;
+  }
+  .carousel-slide {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 100%;
+    animation: slide-animation 10s infinite;
+  }
+  
+  .carousel-item {
+    width:23% ;
+    height: 300px;
+    transition: opacity 1s ease-in-out;
+    // animation: slide-animation 2s infinite;
+  
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .carousel-item img {
+    width: 98%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .caption{
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+  }
+  
+  /* Keyframes for sliding animation */
+  @keyframes slide-animation {
+    0% { transform: translateX(0%); }
+    13% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+    66% { transform: translateX(-100%); }
+    73% { transform: translateX(-200%); }
+    100% { transform: translateX(-200%); }
+  }
+  
