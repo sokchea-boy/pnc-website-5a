@@ -5,18 +5,18 @@ body {
     font-family: sans-serif;
 }
 
-@import"component/_variable";
-@import"component/_nav";
-@import"component/_color-background";
-@import"component/_about";
-@import"component/_selection";
-@import"component/_trianing";
-@import"component/_skill";
-@import"component/_job";
-@import"component/_footer";
-@import"component/_hr";
-@import"component/_media";
-@import"component/_group-mixin";
+@import"component/variable-home";
+@import"component/_nav-home";
+@import"component/_color-background-home";
+@import"component/_about-home";
+@import"component/_selection-home";
+@import"component/_trianing-home";
+@import"component/_skill-home";
+@import"component/_job-home";
+@import"component/_footer-home";
+@import"component/_hr-home";
+@import"component/_media-home";
+@import"component/_group-mixin-home";
 @import"mixin/_responsive";
 strong {
     color: $background-color;

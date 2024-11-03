@@ -1,5 +1,5 @@
-@import"variable";
-@import"_group-mixin";
+@import"variable-home";
+@import"_group-mixin-home";
 .about {
     @include alined-item;
     height: 60vh;

@@ -1,0 +1,81 @@
+@import"_variable-home";
+footer{
+    background-color:$background-color;
+    height: 70vh;
+    .footer{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      color:$nav-color;
+      gap: 40px;
+      .logo-footer{
+          margin-left: 30px;
+          margin-right: 5px;
+          text-align: justify;
+          .img-footer{
+              height: 13vh;
+              margin-top: 30px;
+              margin-left: 5px;
+          }
+      }
+      .about-us{
+        margin-right: 90px;
+        ul{
+            margin-top: 65px;
+            li{
+                list-style: none;
+                margin-top: 20px;
+            }
+        }
+    }
+    .quick-link{
+        margin-top: 42px;
+        margin-right: 60px;
+       
+        ul{
+  
+            li{
+                list-style: none;
+                display: flex;
+                margin-top: 20px;
+                a{
+                    color:$nav-color;
+                    text-decoration: none;
+                }
+            }
+        }
+      }
+    .contact-us{
+        margin-top: 42px;
+        .fa-solid {
+            width: 30px;
+            font-size: 20px;
+            margin-right: 10px;
+       }
+    }
+    
+  }
+  hr{
+    color:grey;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .new-footer{
+    color: $nav-color;
+    margin-top: -2px;
+  }
+  .media{
+   text-align: center;
+   margin-top: 20px;
+   .fa-brands{
+        font-size: 40px;
+        margin: 10px;
+   }
+    .fa-envelope{
+        font-size: 30px;
+    }
+  }
+  }
+  .active{
+    margin-left: -34px;
+  }
