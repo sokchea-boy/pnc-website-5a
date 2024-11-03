@@ -11,7 +11,7 @@ nav {
   top: 0;
   width: 100%;
   padding: 10px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border-bottom: 0 2px 6px 8px solid grey;
   display: flex;
   align-items: center;
@@ -150,87 +150,134 @@ h2 {
 
 footer {
   background-color: orange;
-  height: 80vh;
+  height: 70vh;
 }
-
-.footer {
+footer .footer {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
   color: white;
   gap: 40px;
 }
-.footer .logo-footer {
+footer .footer .logo-footer {
   margin-left: 30px;
   margin-right: 5px;
   text-align: justify;
 }
-.footer .logo-footer .img-footer {
-  height: 23vh;
-  margin-top: 25px;
+footer .footer .logo-footer .img-footer {
+  height: 13vh;
+  margin-top: 30px;
   margin-left: 5px;
 }
-.footer .logo-footer .caption {
-  margin-top: -10px;
-}
-.footer .about-us {
+footer .footer .about-us {
   margin-right: 90px;
 }
-.footer .about-us ul {
+footer .footer .about-us ul {
   margin-top: 65px;
 }
-.footer .about-us ul li {
+footer .footer .about-us ul li {
   list-style: none;
   margin-top: 20px;
 }
-.footer .quick-link {
+footer .footer .quick-link {
   margin-top: 42px;
   margin-right: 60px;
 }
-.footer .quick-link ul li {
+footer .footer .quick-link ul li {
   list-style: none;
   display: flex;
   margin-top: 20px;
 }
-.footer .quick-link ul li a {
+footer .footer .quick-link ul li a {
   color: white;
+  text-decoration: none;
 }
-.footer .contact-us {
+footer .footer .contact-us {
   margin-top: 42px;
 }
-.footer .contact-us .fa-solid {
+footer .footer .contact-us .fa-solid {
   width: 30px;
   font-size: 20px;
 }
-
-hr {
+footer hr {
   color: white;
   width: 90%;
 }
-
-.new-footer {
+footer .new-footer {
   color: white;
-  margin-top: -5px;
+  margin-top: -2px;
 }
-
-.media {
+footer .media {
   text-align: center;
   margin-top: 20px;
 }
-.media .fa-brands {
-  font-size: 30px;
+footer .media .fa-brands {
+  font-size: 40px;
   margin: 10px;
 }
-.media .fa-envelope {
+footer .media .fa-envelope {
   font-size: 30px;
 }
 
-#logo-login {
-  width: 70%;
-  height: 70%;
-  margin-top: 70px;
+.active {
+  margin-left: -34px;
 }
 
+@media (max-width: 480px) {
+  nav {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  .container img {
+    width: 95%;
+    height: 67vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-top: 20px;
+  }
+  .container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 15px;
+  }
+  .input {
+    height: 5vh;
+    margin-top: 10px;
+  }
+  #message {
+    margin-top: 10px;
+  }
+  #logo-login {
+    width: 70%;
+    height: 70%;
+    margin-top: 70px;
+    display: none;
+  }
+  .map h2 {
+    margin-bottom: 30px;
+  }
+  .map iframe {
+    margin-top: 50px;
+    background: white;
+    width: 95%;
+    height: 60vh;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin-left: 10px;
+  }
+  .map span {
+    background: #50076b;
+    padding: 15px;
+    border-radius: 40px 0 40px 0;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+  }
+}
 .input {
   height: 5vh;
   margin-top: 10px;
@@ -238,4 +285,10 @@ hr {
 
 #message {
   margin-top: 10px;
+}
+
+#logo-login {
+  width: 70%;
+  height: 70%;
+  margin-top: 70px;
 }/*# sourceMappingURL=contact.css.map */

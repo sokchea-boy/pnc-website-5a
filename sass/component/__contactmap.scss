@@ -1,3 +1,4 @@
+// @import"component/__contactvariable";
 .map {
     h2 {
     margin-bottom: 30px;
@@ -11,7 +12,7 @@
         height: 80vh;
         border-radius: 10px;
         border: 3px solid $bg-color-nav;
-        box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        box-shadow: $bg-boxsado-1;
     }
     span {
         background:$bg-blue;

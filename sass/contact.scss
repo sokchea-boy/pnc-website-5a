@@ -1,24 +1,21 @@
-@import"component/__variable";
-@import"component/__body";
-@import"component/__navbar";
-@import"component/__feddback";
-@import"component/__container";
-@import"component/__form-login";
-@import"component/__form";
-@import"component/__gender";
-@import"component/__logo-1";
-@import"component/__color";
-@import"component/__color-1";
-@import"component/__form-2";
-@import"component/__submit";
-@import"component/__text";
-@import"component/__map";
-@import"component/__footer";
-#logo-login{
-    width: 70%;
-    height: 70%;
-    margin-top: 70px;
-}
+@import"component/_contactvariable";
+@import"component/_contactbady";
+@import"component/_contactnavbar";
+@import"component/_contactfeddback";
+@import"component/_contactcontainer";
+@import"component/_contactform-login";
+@import"component/_contactform";
+@import"component/_contactgender";
+@import"component/_contactlogo-1";
+@import"component/_contactcolor";
+@import"component/_contactcolor-1";
+@import"component/_contactform-2";
+@import"component/_contactsubmit";
+@import"component/_contacttext";
+@import"component/_contactmap";
+@import"component/_contactfooter";
+@import "mixin/_reponsive_contact";
+
 
 .input{
     height: 5vh;
@@ -26,6 +23,10 @@
 }
 #message{
     margin-top: 10px;
+}#logo-login{
+    width: 70%;
+    height: 70%;
+    margin-top: 70px;
 }
 
 
