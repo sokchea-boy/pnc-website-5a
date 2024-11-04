@@ -788,7 +788,7 @@ body {
 }
 .container2 .contaner-right {
   background: #6e7788;
-  height: 47vh;
+  height: 50vh;
   width: 70%;
   border-radius: 10px;
   padding: 15px;
@@ -2619,7 +2619,7 @@ footer .media .fa-envelope {
   justify-content: space-around;
   margin-top: 50px;
   width: 100%;
-  animation: slide-animation 10s infinite;
+  animation: slide-animation 30s infinite;
 }
 
 .carousel-item {
@@ -2663,7 +2663,7 @@ footer .media .fa-envelope {
     transform: translateX(-200%);
   }
   100% {
-    transform: translateX(-200%);
+    transform: translateX(-300%);
   }
 }
 /* Slide styling *//*# sourceMappingURL=about.css.map */
