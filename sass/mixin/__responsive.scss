@@ -119,7 +119,7 @@
                 line-height: 3em;
             }
 
-            p {}
+        
         }
     }
 
@@ -450,8 +450,9 @@
     }
 
     .dropdown-items:hover {
-        background-color: $nav-color;
-        // color: $nav-color;
+        background-color: $color-drop;
+        color: $nav-color;
+        width: 100%;
     }
 
     .dropdown-dividers {

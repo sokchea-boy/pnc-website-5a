@@ -468,8 +468,8 @@ body {
     justify-content: space-between;
   }
   nav .logo {
-    height: 10vh;
-    width: 40%;
+    height: 57px;
+    width: 140px;
   }
   nav ul {
     display: flex;
@@ -528,6 +528,8 @@ body {
     background: #fff;
     position: absolute;
     top: 100px;
+    width: 100%;
+    left: 0;
   }
   .contner-mid {
     height: 170px;
@@ -538,55 +540,37 @@ body {
   }
   .container1 {
     background-color: #d9d9d9;
-    display: flex;
-    justify-content: space-around;
     height: 70vh;
-    gap: 90px;
+    gap: 10px;
+    width: 100%;
+  }
+  .container1 .p1emage {
+    display: none;
   }
   .container1 .page-right {
     margin-top: 30px;
   }
   .container1 h1 {
     margin: 10px;
-    font-size: 2.8em;
+    font-size: 1.8em;
   }
   .container1 h1 strong {
     color: orange;
   }
   .container1 p {
     margin: 10px;
-    margin-left: 20px;
   }
   .container1 hr {
     padding: 1px;
-    width: 20%;
+    width: 60%;
     background-color: black;
     margin: 10px;
-  }
-  .container1 .button {
-    display: flex;
-    gap: 10px;
-  }
-  .container1 .button .btn1 {
-    background: orange;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 20%;
-    height: 7vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .container1 .button .btn1:hover {
-    background-color: orange;
-    color: white;
   }
   .container1 .button .btn2 {
     border-radius: 10px;
     margin-left: 10px;
     margin-top: 10px;
-    width: 30%;
+    width: 40%;
     height: 7vh;
     background-color: #29A9B2;
     display: flex;
@@ -601,18 +585,16 @@ body {
     color: white;
   }
   .container2 {
-    display: flex;
-    justify-content: space-between;
-    margin: 80px;
-    margin-top: 90px;
-    gap: 50px;
+    margin: 10px;
+    margin-top: 40px;
+    gap: 10px;
   }
   .container2 .contaner-right {
     background: #6e7788;
-    height: 47vh;
+    height: 60vh;
     width: 70%;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
   }
   .container2 h2 {
     font-size: 1.6em;
@@ -633,6 +615,89 @@ body {
   .container2 h3 {
     color: orange;
     margin-top: 10px;
+  }
+  .history {
+    margin: 10px;
+    margin-left: 70px;
+  }
+  .history h2 {
+    color: orange;
+    margin: 10px;
+  }
+  .history p {
+    margin-top: 10px;
+    width: 80%;
+  }
+  .right-img {
+    width: 50%;
+    height: 40%;
+    display: none;
+  }
+  .conten-main {
+    background: #6e7788;
+    height: auto;
+    margin-top: 30px;
+  }
+  .content-left,
+  .content-right {
+    width: 1000px;
+    height: 80vh;
+    display: flex;
+  }
+  .list1,
+  .list2 {
+    background: lightblue;
+    display: flex;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+  }
+  .list-mid {
+    color: black;
+  }
+  .list_1,
+  .list_2 {
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+  .number {
+    background: lightseagreen;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .year-pnc {
+    margin: 20px;
+  }
+  .image-right {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px;
+    display: none;
+  }
+  .other-local {
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+  }
+  .main-partner {
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+  }
+  .logos {
+    width: 35%;
+    height: 30vh;
   }
 }
 .container {
@@ -1213,8 +1278,8 @@ body {
     justify-content: space-between;
   }
   nav .logo {
-    height: 10vh;
-    width: 40%;
+    height: 57px;
+    width: 140px;
   }
   nav ul {
     display: flex;
@@ -1273,6 +1338,8 @@ body {
     background: #fff;
     position: absolute;
     top: 100px;
+    width: 100%;
+    left: 0;
   }
   .contner-mid {
     height: 170px;
@@ -1283,55 +1350,37 @@ body {
   }
   .container1 {
     background-color: #d9d9d9;
-    display: flex;
-    justify-content: space-around;
     height: 70vh;
-    gap: 90px;
+    gap: 10px;
+    width: 100%;
+  }
+  .container1 .p1emage {
+    display: none;
   }
   .container1 .page-right {
     margin-top: 30px;
   }
   .container1 h1 {
     margin: 10px;
-    font-size: 2.8em;
+    font-size: 1.8em;
   }
   .container1 h1 strong {
     color: orange;
   }
   .container1 p {
     margin: 10px;
-    margin-left: 20px;
   }
   .container1 hr {
     padding: 1px;
-    width: 20%;
+    width: 60%;
     background-color: black;
     margin: 10px;
-  }
-  .container1 .button {
-    display: flex;
-    gap: 10px;
-  }
-  .container1 .button .btn1 {
-    background: orange;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 20%;
-    height: 7vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .container1 .button .btn1:hover {
-    background-color: orange;
-    color: white;
   }
   .container1 .button .btn2 {
     border-radius: 10px;
     margin-left: 10px;
     margin-top: 10px;
-    width: 30%;
+    width: 40%;
     height: 7vh;
     background-color: #29A9B2;
     display: flex;
@@ -1346,18 +1395,16 @@ body {
     color: white;
   }
   .container2 {
-    display: flex;
-    justify-content: space-between;
-    margin: 80px;
-    margin-top: 90px;
-    gap: 50px;
+    margin: 10px;
+    margin-top: 40px;
+    gap: 10px;
   }
   .container2 .contaner-right {
     background: #6e7788;
-    height: 47vh;
+    height: 60vh;
     width: 70%;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
   }
   .container2 h2 {
     font-size: 1.6em;
@@ -1378,6 +1425,89 @@ body {
   .container2 h3 {
     color: orange;
     margin-top: 10px;
+  }
+  .history {
+    margin: 10px;
+    margin-left: 70px;
+  }
+  .history h2 {
+    color: orange;
+    margin: 10px;
+  }
+  .history p {
+    margin-top: 10px;
+    width: 80%;
+  }
+  .right-img {
+    width: 50%;
+    height: 40%;
+    display: none;
+  }
+  .conten-main {
+    background: #6e7788;
+    height: auto;
+    margin-top: 30px;
+  }
+  .content-left,
+  .content-right {
+    width: 1000px;
+    height: 80vh;
+    display: flex;
+  }
+  .list1,
+  .list2 {
+    background: lightblue;
+    display: flex;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+  }
+  .list-mid {
+    color: black;
+  }
+  .list_1,
+  .list_2 {
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+  .number {
+    background: lightseagreen;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .year-pnc {
+    margin: 20px;
+  }
+  .image-right {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px;
+    display: none;
+  }
+  .other-local {
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+  }
+  .main-partner {
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+  }
+  .logos {
+    width: 35%;
+    height: 30vh;
   }
 }
 nav {
@@ -1923,8 +2053,8 @@ nav ul a {
     justify-content: space-between;
   }
   nav .logo {
-    height: 10vh;
-    width: 40%;
+    height: 57px;
+    width: 140px;
   }
   nav ul {
     display: flex;
@@ -1983,6 +2113,8 @@ nav ul a {
     background: #fff;
     position: absolute;
     top: 100px;
+    width: 100%;
+    left: 0;
   }
   .contner-mid {
     height: 170px;
@@ -1993,55 +2125,37 @@ nav ul a {
   }
   .container1 {
     background-color: #d9d9d9;
-    display: flex;
-    justify-content: space-around;
     height: 70vh;
-    gap: 90px;
+    gap: 10px;
+    width: 100%;
+  }
+  .container1 .p1emage {
+    display: none;
   }
   .container1 .page-right {
     margin-top: 30px;
   }
   .container1 h1 {
     margin: 10px;
-    font-size: 2.8em;
+    font-size: 1.8em;
   }
   .container1 h1 strong {
     color: orange;
   }
   .container1 p {
     margin: 10px;
-    margin-left: 20px;
   }
   .container1 hr {
     padding: 1px;
-    width: 20%;
+    width: 60%;
     background-color: black;
     margin: 10px;
-  }
-  .container1 .button {
-    display: flex;
-    gap: 10px;
-  }
-  .container1 .button .btn1 {
-    background: orange;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 20%;
-    height: 7vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .container1 .button .btn1:hover {
-    background-color: orange;
-    color: white;
   }
   .container1 .button .btn2 {
     border-radius: 10px;
     margin-left: 10px;
     margin-top: 10px;
-    width: 30%;
+    width: 40%;
     height: 7vh;
     background-color: #29A9B2;
     display: flex;
@@ -2056,18 +2170,16 @@ nav ul a {
     color: white;
   }
   .container2 {
-    display: flex;
-    justify-content: space-between;
-    margin: 80px;
-    margin-top: 90px;
-    gap: 50px;
+    margin: 10px;
+    margin-top: 40px;
+    gap: 10px;
   }
   .container2 .contaner-right {
     background: #6e7788;
-    height: 47vh;
+    height: 60vh;
     width: 70%;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
   }
   .container2 h2 {
     font-size: 1.6em;
@@ -2088,6 +2200,89 @@ nav ul a {
   .container2 h3 {
     color: orange;
     margin-top: 10px;
+  }
+  .history {
+    margin: 10px;
+    margin-left: 70px;
+  }
+  .history h2 {
+    color: orange;
+    margin: 10px;
+  }
+  .history p {
+    margin-top: 10px;
+    width: 80%;
+  }
+  .right-img {
+    width: 50%;
+    height: 40%;
+    display: none;
+  }
+  .conten-main {
+    background: #6e7788;
+    height: auto;
+    margin-top: 30px;
+  }
+  .content-left,
+  .content-right {
+    width: 1000px;
+    height: 80vh;
+    display: flex;
+  }
+  .list1,
+  .list2 {
+    background: lightblue;
+    display: flex;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+  }
+  .list-mid {
+    color: black;
+  }
+  .list_1,
+  .list_2 {
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+  .number {
+    background: lightseagreen;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .year-pnc {
+    margin: 20px;
+  }
+  .image-right {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px;
+    display: none;
+  }
+  .other-local {
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+  }
+  .main-partner {
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+  }
+  .logos {
+    width: 35%;
+    height: 30vh;
   }
 }
 .club {
@@ -2131,9 +2326,6 @@ nav ul a {
   border-radius: 10px 10px 0px 0px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   text-align: center;
-  background-size: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .card-tops {

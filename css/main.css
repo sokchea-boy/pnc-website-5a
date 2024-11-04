@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-/*# sourceMappingURL=main.css.map */
-=======
->>>>>>> e41b8510703e1207d51a9cf971a27a1c0b0b93e8
->>>>>>> de4c0dfd8f836777b60b34e877a4033bf045eb82
 body {
   margin: 0;
   padding: 0;
@@ -723,7 +713,9 @@ hr {
     background-color: transparent;
   }
   .dropdown-items:hover {
-    background-color: white;
+    background-color: grey;
+    color: white;
+    width: 100%;
   }
   .dropdown-dividers {
     height: 1px;
@@ -993,16 +985,4 @@ hr {
 }
 strong {
   color: orange;
-<<<<<<< HEAD
 }/*# sourceMappingURL=main.css.map */
-=======
-<<<<<<< HEAD
-}/*# sourceMappingURL=main.css.map */
-=======
-}/*# sourceMappingURL=main.css.map */
->>>>>>> home-page
-=======
-/*# sourceMappingURL=main.css.map */
->>>>>>> contact-page
->>>>>>> e41b8510703e1207d51a9cf971a27a1c0b0b93e8
->>>>>>> de4c0dfd8f836777b60b34e877a4033bf045eb82

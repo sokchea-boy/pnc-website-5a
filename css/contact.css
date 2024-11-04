@@ -12,7 +12,7 @@ nav {
   width: 100%;
   padding: 10px;
   background-color: white;
-  border-bottom: 0 2px 6px 8px solid grey;
+  border-bottom: 0 2px 6px 8px 0 2px 6px 8px solid grey;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,11 +30,57 @@ nav ul {
 nav ul li a:hover {
   padding: 10px 10px;
   background: orange;
+  text-decoration: underline;
   text-decoration: none;
 }
 nav ul a {
   text-decoration: none;
   font-size: 20px;
+}
+
+.dropstart {
+  position: relative;
+  display: inline-block;
+  display: none;
+}
+
+.fa-sape {
+  margin-left: 20px;
+}
+
+.dropdown-menus {
+  display: none;
+  position: absolute;
+  left: -100px;
+  top: 20px;
+  background-color: orange;
+  min-width: 160px;
+  border-radius: 5px;
+  z-index: 1;
+  padding: 0;
+}
+
+.dropstart:hover .dropdown-menus {
+  display: block;
+}
+
+.dropdown-items {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  background-color: transparent;
+}
+
+.dropdown-items:hover {
+  background-color: grey;
+  color: white;
+}
+
+.dropdown-dividers {
+  height: 1px;
+  background-color: rgba(113, 219, 248, 0.885);
+  margin: 5px 0;
 }
 
 .Feedback {
@@ -49,6 +95,7 @@ nav ul a {
   -o-object-fit: cover;
      object-fit: cover;
   margin-top: 20px;
+  background: #fff;
 }
 
 .form-login {
@@ -83,8 +130,8 @@ nav ul a {
   -webkit-clip-path: polygon(36% 0, 23% 52%, 32% 100%, 0 100%, 0% 50%, 0 0);
           clip-path: polygon(36% 0, 23% 52%, 32% 100%, 0 100%, 0% 50%, 0 0);
   padding: 90px;
-  width: 80%;
-  margin-left: 23px;
+  width: 90%;
+  margin-left: -15px;
 }
 
 .color1 {
@@ -225,10 +272,75 @@ footer .media .fa-envelope {
 
 @media (max-width: 480px) {
   nav {
+    position: fixed;
+    z-index: 38;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 0 2px 6px 8px 0 2px 6px 8px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav .logo {
+    height: 10vh;
+    width: 40%;
+  }
+  nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-right: 40px;
+  }
+  nav ul li a:hover {
+    padding: 10px 10px;
+    background: orange;
+    text-decoration: underline;
+    text-decoration: none;
+  }
+  nav ul a {
+    text-decoration: none;
+    font-size: 20px;
     display: none;
   }
-  footer {
+  .dropstart {
+    position: relative;
+    display: inline-block;
+  }
+  .fa-sape {
+    margin-left: 20px;
+  }
+  .dropdown-menus {
     display: none;
+    position: absolute;
+    left: -100px;
+    top: 20px;
+    background-color: orange;
+    min-width: 160px;
+    border-radius: 5px;
+    z-index: 1;
+    padding: 0;
+  }
+  .dropstart:hover .dropdown-menus {
+    display: block;
+  }
+  .dropdown-items {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    background-color: transparent;
+  }
+  .dropdown-items:hover {
+    background-color: grey;
+    color: white;
+  }
+  .dropdown-dividers {
+    height: 1px;
+    background-color: rgba(113, 219, 248, 0.885);
+    margin: 5px 0;
   }
   .container img {
     width: 95%;
